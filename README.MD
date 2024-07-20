@@ -7,7 +7,7 @@
 ### 2. Use `git clone` to clone the repo to your local folder.
 
 ```
-git clone https://github.com/gogf/gf-demo-user
+git clone https://github.com/June-1984/firstlink-gf
 ```
 
 ### 3. Import `manifest/sql/create.sql` to your database.
@@ -36,7 +36,7 @@ git clone https://github.com/gogf/gf-demo-user
   :8000   | POST   | /user/is-signed-in    | github.com/gogf/gf-demo-user/v2/internal/controller/user.(*Controller).IsSignedIn    | service.IMiddleware.Ctx   
           |        |                       |                                                                                      | ghttp.MiddlewareCORS      
 ----------|--------|-----------------------|--------------------------------------------------------------------------------------|---------------------------
-  :8000   | GET    | /user/profile         | github.com/gogf/gf-demo-user/v2/internal/controller/user.(*Controller).Profile       | service.IMiddleware.Ctx
+  :8000   | GET    | /user/list         | github.com/gogf/gf-demo-user/v2/internal/controller/user.(*Controller).list       | service.IMiddleware.Ctx
           |        |                       |                                                                                      | ghttp.MiddlewareCORS
 ----------|--------|-----------------------|--------------------------------------------------------------------------------------|---------------------------
   :8000   | GET    | /user/profile         | github.com/gogf/gf-demo-user/v2/internal/controller/user.(*Controller).Profile       | service.IMiddleware.Ctx
